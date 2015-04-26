@@ -12,7 +12,7 @@ body {
 .catiek {
   text-align: center;
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 12em;
+  font-size: 10em;
   /*border: 2px solid white;*/
 }
 
@@ -34,6 +34,13 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 28px;
   font-weight: 100;
+}
+
+.intro {
+  width: 700px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .developer {
