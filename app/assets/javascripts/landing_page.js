@@ -1,14 +1,6 @@
 $(document).ready(function() {
   console.log("hereeee");
 
-  // $("#shaker").toggle()
-
-  // $("#shaker").hover(function(){
-  //     $("#shaker").fadeIn();
-  // },function(){
-  //     $("#shaker").fadeOut();
-  // });
-
   jQuery.fn.shake = function() {
       this.each(function(i) {
           $(this).css({ "position" : "relative" });
