@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  alert("hereeee");
+
+  console.log("hereeee");
 
   jQuery.fn.shake = function() {
       this.each(function(i) {
