@@ -36,6 +36,12 @@ body {
   font-weight: 100;
 }
 
+div.a {
+  width: 100px;
+  height: 100px;
+  position:fixed;
+}
+
 .intro {
   width: 700px;
   text-align: center;
@@ -92,7 +98,7 @@ body {
 
 .big {
   font-family: 'Londrina Outline', cursive;
-  font-size: 5em;
+  font-size: 3em;
   background-color: black;
   color: white;
 }
