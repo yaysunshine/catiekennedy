@@ -18,6 +18,10 @@ $(document).ready(function() {
       $(this).shake();
   });
 
+  $("#bubbles").hover(function() {
+    $("this").toggle();
+  })
+
 });
 
 function makeNewPosition(){
