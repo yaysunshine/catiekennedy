@@ -34,6 +34,27 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 28px;
   font-weight: 100;
+  text-decoration: none;
+}
+
+#shaker {
+  cursor: pointer;
+}
+
+#bubbles {
+  cursor: pointer;
+}
+
+#baby {
+  cursor: pointer;
+}
+
+#red {
+  cursor: pointer;
+}
+
+#avid {
+  cursor: pointer;
 }
 
 div.a {
@@ -81,6 +102,10 @@ div.a {
   background-repeat: no-repeat;
 }
 
+#black {
+  color: black;
+}
+
 .panday {
   border-radius: 50%;
   width: 300px;
@@ -110,7 +135,6 @@ div.a {
 }
 
 #shaker {
-  height: 100px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;

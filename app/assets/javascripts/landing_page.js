@@ -14,13 +14,25 @@ $(document).ready(function() {
       return this;
   }
 
-  $("#shaker").hover(function() {
+  $("#shaker").click(function() {
       $(this).shake();
   });
 
-  $("#bubbles").hover(function() {
-    $("this").toggle();
-  })
+  $("#bubbles").click(function() {
+    $("#scuba").toggle();
+  });
+
+  $("#baby").click(function() {
+    $("#swim").toggle();
+  });
+
+  $("#red").click(function() {
+    $("#paddle").toggle();
+  });
+
+  $("#avid").click(function() {
+    $(".traveler").toggle();
+  });
 
 });
 
