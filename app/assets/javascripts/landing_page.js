@@ -19,19 +19,19 @@ $(document).ready(function() {
   });
 
   $("#bubbles").click(function() {
-    $("#scuba").toggle();
+    $(".scuba").show();
   });
 
   $("#baby").click(function() {
-    $("#swim").toggle();
+    $("#swim").show();
   });
 
   $("#red").click(function() {
-    $("#paddle").toggle();
+    $("#paddle").show();
   });
 
   $("#avid").click(function() {
-    $(".traveler").toggle();
+    $(".traveler").show();
   });
 
 });
