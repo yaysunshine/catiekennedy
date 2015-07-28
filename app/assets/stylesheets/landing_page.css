@@ -78,14 +78,6 @@ div.a {
   font-size: 3em;
 }
 
-.lifetime :active {
-  color: white;
-  text-decoration: none;
-}
-
-.lifetime :visited {
-  color: white;
-}
 
 .lifetime {
   color: black;
@@ -102,7 +94,12 @@ div.a {
   background-repeat: no-repeat;
 }
 
-#black {
+.lifetime :active {
+  color: black;
+  text-decoration: none;
+}
+
+.lifetime :visited {
   color: black;
 }
 
@@ -119,6 +116,15 @@ div.a {
   background: url('pandas') ;
   background-size: 400px 425px;
   background-repeat: no-repeat;
+  color: black;
+}
+
+.panday :visited {
+  color: black;
+}
+
+.panday :active {
+  color: black;
 }
 
 
