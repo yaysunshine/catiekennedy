@@ -243,6 +243,10 @@ div.a {
     to {background-position:-10000px 5000px;}
 }
 
+.height {
+  height: 550px;
+}
+
 .stars, .twinkling {
   position: absolute;
   top: 0;
@@ -250,8 +254,7 @@ div.a {
   right: 0;
   bottom: 0;
   width: 100%;
-  height: 50%;
-  display: block;
+  /*display: block;*/
 }
 
 .stars {
@@ -271,3 +274,13 @@ div.a {
 }
 
 /*end twinkling*/
+
+@media screen and (max-width: 900px) {
+    .intro {
+      width: 300px;
+    }
+    .height {
+      font-size: 10px;
+    }
+
+}
