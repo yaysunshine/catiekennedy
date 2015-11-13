@@ -90,19 +90,87 @@ div.a {
   font-size: 3em;
 }
 
+.appathy {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border: 10px solid white;
+  padding: 2em;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background: url('appathy');
+  background-size: 365px 365px;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.appathy :visited {
+  color: black;
+}
+
+.appathy :active {
+  color: black;
+}
+
+.seekbot {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border: 10px solid white;
+  padding: 2em;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background: url('seekbot');
+  background-size: 365px 365px;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.seekbot :visited {
+  color: white;
+}
+
+.seekbot :active {
+  color: white;
+}
+
+.panday {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border: 10px solid white;
+  padding: 2em;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background: url('pandas') ;
+  background-size: 360px 360px;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.panday :visited {
+  color: black;
+}
+
+.panday :active {
+  color: black;
+}
 
 .lifetime {
   color: black;
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border: 10px solid white;
   padding: 2em;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
   background: url('running') ;
-  background-size: 500px 425px;
+  background-size: 365px 365px;
   background-repeat: no-repeat;
 }
 
@@ -114,28 +182,27 @@ div.a {
   color: black;
 }
 
-.panday {
+.coral {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border: 10px solid white;
   padding: 2em;
   text-align: center;
-  color: black;
   margin-right: auto;
   margin-left: auto;
-  background: url('pandas') ;
-  background-size: 400px 425px;
+  background: url('coral') ;
+  background-size: 500px 450px;
   background-repeat: no-repeat;
-  color: black;
+  color: white;
 }
 
-.panday :visited {
-  color: black;
+.coral :active {
+  color: white;
 }
 
-.panday :active {
-  color: black;
+.coral :visited {
+  color: white;
 }
 
 
@@ -179,8 +246,33 @@ div.a {
   width: 100%;
 }
 
+#contactspace {
+  background-color: black;
+  height: 0px;
+  width: 100%;
+}
+
 .carlton {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 2em;
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background: url('catie') ;
+  background-size: 165px 165px;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.carlton :active {
+  color: white;
+}
+
+.carlton :visited {
+  color: white;
 }
 
 .links {
@@ -254,7 +346,7 @@ div.a {
   right: 0;
   bottom: 0;
   width: 100%;
-  /*display: block;*/
+  display: block;
 }
 
 .stars {
