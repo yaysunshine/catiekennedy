@@ -65,19 +65,21 @@
 
 <div class="contactspace"></div>
 
-<div class="developer"><strong>catie kennedy : contact me</strong></div>
+<div class="developer"><strong>language : Ruby</strong></div>
 
 <div class="contactspace"></div>
 
 <div class="carlton">
-  <%= link_to "", 'http://cmk.herokuapp.com'%>
+  <%= link_to "def contact_me(click)", 'http://cmk.herokuapp.com'%>
 </div>
 
-<div class="contactspace"></div>
-
 <footer class="links">
-  <p id="github"><%= link_to "Git with me", 'http://github.com/yaysunshine' %><%= image_tag('github_logo.png', :size => "50x50") %></p>
-    <p id="linkedin"><%= link_to 'Link with me', 'http://www.linkedin.com/in/catiek' %><%= image_tag('linked.png', :size => "50x50") %></p>
-  <p id="twitter"><%= link_to "Tweet with me", 'http://twitter.com/ckennedyay' %><%= image_tag('tweet.png', :size => "40x40") %></p>
-  <div class="contactspace"></div>
+  <p id="github"><%= link_to "if click == git with me", 'http://github.com/yaysunshine' %><p class="indent">puts <%= image_tag('github_logo.png', :size => "50x50") %></p></p>
+  <p id="linkedin"><%= link_to "elsif click == link with me", 'http://www.linkedin.com/in/catiek' %><p class="indent">puts <%= image_tag('linked.png', :size => "50x50") %></p></p>
+  <p id="twitter"><%= link_to "else", 'http://twitter.com/ckennedyay' %><p class="indent">puts <%= image_tag('tweet.png', :size => "40x40") %></p></p>
+  <p id="twitter">end</p>
 </footer>
+
+<div class="carlton">
+  <%= link_to "end", 'http://cmk.herokuapp.com'%>
+</div>

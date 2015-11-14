@@ -2,8 +2,6 @@ $(document).ready(function() {
 
   console.log("hereeee");
 
-  animateDiv();
-
   jQuery.fn.shake = function() {
       this.each(function(i) {
           $(this).css({ "position" : "relative" });
@@ -19,58 +17,20 @@ $(document).ready(function() {
   });
 
   $("#bubbles").click(function() {
-    $(".scuba").show();
+    $(".scuba").toggle();
   });
 
   $("#baby").click(function() {
-    $("#swim").show();
+    $("#swim").toggle();
   });
 
   $("#red").click(function() {
-    $("#paddle").show();
+    $("#paddle").toggle();
   });
 
   $("#avid").click(function() {
-    $(".traveler").show();
+    $(".traveler").toggle();
   });
 
 });
 
-function makeNewPosition(){
-
-    // Get viewport dimensions (remove the dimension of the div)
-    var h = $(window).height() - 50;
-    var w = $(window).width() - 50;
-
-    var nh = Math.floor(Math.random() * h);
-    var nw = Math.floor(Math.random() * w);
-
-    return [nh,nw];
-
-}
-
-function animateDiv(){
-    var newq = makeNewPosition();
-    var oldq = $('.a').offset();
-    var speed = calcSpeed([oldq.top, oldq.left], newq);
-
-    $('.a').animate({ top: newq[0], left: newq[1] }, speed, function(){
-      animateDiv();
-    });
-
-};
-
-function calcSpeed(prev, next) {
-
-    var x = Math.abs(prev[1] - next[1]);
-    var y = Math.abs(prev[0] - next[0]);
-
-    var greatest = x > y ? x : y;
-
-    var speedModifier = 0.1;
-
-    var speed = Math.ceil(greatest/speedModifier);
-
-    return speed;
-
-}
