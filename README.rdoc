@@ -11,3 +11,4 @@ CSS
 media queries for responsiveness
 
 [Catie Kennedy](https://catiekennedy.herokuapp.com)
+catiekennedy.herokuapp.com
