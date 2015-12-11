@@ -10,4 +10,4 @@ CSS
 
 media queries for responsiveness
 
-[I'm an inline-style link with title](https://catiekennedy.herokuapp.com "Catie Kennedy")
+[Catie Kennedy](https://catiekennedy.herokuapp.com)
