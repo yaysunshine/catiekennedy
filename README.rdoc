@@ -3,6 +3,11 @@
 Personal website
 
 Rails
+
 HTML
+
 CSS
+
 media queries for responsiveness
+
+[I'm an inline-style link with title](https://catiekennedy.herokuapp.com "Catie Kennedy")
